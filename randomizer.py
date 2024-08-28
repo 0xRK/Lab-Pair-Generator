@@ -113,13 +113,12 @@ def main():
             write_file.write(select_pair(afternoon_students, 0))
         write_file.write(
             afternoon_students[0] + ", " + afternoon_students[1] + ", " + afternoon_students[2] + "\n")
-    
     write_file.write("\nEvening Lab\n")
     if len(evening_students) % 2 == 0:
         while len(evening_students) > 0:
             write_file.write(select_pair(evening_students, 0))
     else:
-        while len(afternoon_students) > 3:
+        while len(evening_students) > 3:
             write_file.write(select_pair(evening_students, 0))
         write_file.write(
             evening_students[0] + ", " + evening_students[1] + ", " + evening_students[2] + "\n")
