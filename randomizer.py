@@ -2,6 +2,7 @@ import random
 
 morning_students = []
 afternoon_students = []
+evening_students = []
 previous_pairs = set()
 current_pairs = []
 
@@ -16,17 +17,29 @@ def parse_previous_pairs():
 
 def populate_lists(file):
     morning = True
+    afternoon = False
+    evening = False
     for line in file:
         line = line[:-1]
         if line == "# Morning":
-            continue
+            afternoon = False
+            evening = False
+            morning = True
         elif line == "# Afternoon":
             morning = False
+            evening = False
+            afternoon = True
+        elif line == "# Evening":
+            morning = False
+            afternoon = False
+            evening = True
         else:
             if morning:
                 morning_students.append(line)
-            else:
+            elif afternoon:
                 afternoon_students.append(line)
+            elif evening:
+                evening_students.append(line)
 
 
 def set_to_string(pair):
@@ -57,7 +70,7 @@ def select_pair(lst, count):
 
 def read_current_pairs(file):
     for line in file:
-        if line == "Morning Lab\n" or line == "Afternoon Lab\n" or line == "\n":
+        if line == "Morning Lab\n" or line == "Afternoon Lab\n" or line == "Evening Lab\n" or line == "\n":
             continue
         else:
             current_pairs.append(line)
@@ -100,6 +113,16 @@ def main():
             write_file.write(select_pair(afternoon_students, 0))
         write_file.write(
             afternoon_students[0] + ", " + afternoon_students[1] + ", " + afternoon_students[2] + "\n")
+    
+    write_file.write("\nEvening Lab\n")
+    if len(evening_students) % 2 == 0:
+        while len(evening_students) > 0:
+            write_file.write(select_pair(evening_students, 0))
+    else:
+        while len(afternoon_students) > 3:
+            write_file.write(select_pair(evening_students, 0))
+        write_file.write(
+            evening_students[0] + ", " + evening_students[1] + ", " + evening_students[2] + "\n")
 
     write_file.close()
     update_previous_pairs()
