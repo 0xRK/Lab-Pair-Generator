@@ -1,44 +1,44 @@
 Morning Lab
-Trung Huynh, Noah Croghan
-Zen Mang, Abby Wever
-Luke Dickerson, Chloe Fisicaro
-Henry Sweley, Joe Nguyen
-Bryce Closman, Kenneth Kouete
-Graham Heiser, Cutter Beaver
-Brent Vasa, Ben Grelk
-Thrisha Bhupathiraju, Sofia Sharif
-Antonio Garces, Manuel Lima
-McCoy Haussler, Josiah Welch
-Kyson Ruskamp, Aja Smith
-Tyler Thiede, Clayton Howe
-Trai Hoff, Minh Pham
-Brett Williams, Boston Bailey
+Zen Mang, Brett Williams
+Kyson Ruskamp, Josiah Welch
+Bryce Closman, Sofia Sharif
+Noah Croghan, Tyler Thiede
+Kenneth Kouete, Trung Huynh
+Luke Dickerson, Aja Smith
+Thrisha Bhupathiraju, Chloe Fisicaro
+Trai Hoff, Clayton Howe
+Henry Sweley, Antonio Garces
+Joe Nguyen, Brent Vasa
+Cutter Beaver, Ben Grelk
+Abby Wever, Manuel Lima
+Minh Pham, McCoy Haussler
+Boston Bailey, Graham Heiser
 
 Afternoon Lab
-Dan Vo, Kaden Ho
-Quentin Rockefeller, Luke Pickert
-Aidan Dunlap, Allen Delgadillo-Orozco
-Sean Stara, Carsen Grigaitis
-Austin James, Isaac Salazar
-Paden Outz, Dylan Gage
-Ali Mahdi, Xander Drueppel
-Duncan Holmes, Leland Bishop
-Jake Sanford, Ammar Alqaayim
-Andrew Kula, Nhi Luu, Hoai Nguyen
+Dylan Gage, Luke Pickert
+Ali Mahdi, Quentin Rockefeller
+Dan Vo, Ammar Alqaayim
+Leland Bishop, Jake Sanford
+Carsen Grigaitis, Allen Delgadillo-Orozco
+Aidan Dunlap, Sean Stara
+Nhi Luu, Isaac Salazar
+Duncan Holmes, Paden Outz
+Andrew Kula, Austin James
+Xander Drueppel, Kaden Ho, Hoai Nguyen
 
 Evening Lab
-Levi Luenenborg, Anton Cook
-Sean McNear, Cameron Koch
-Tee Kaw, Shale Harrison
-Nolan Pitcher, Narayana Pujara
-Connor Fausett, Bennett Lebruska
-Xavier Bottorff, Kojo Tenkorang
-Isaac Mastel, Tristan Kingery
-Jon Wollam, Alex Werner
-Anna LaFrance, Brianna Jurado Torres
-Grant Rohrbaugh, Johnathan Franklin
-Bradley Chebefuh, Alijah Alfieri
-Ethan Stenger, Matthew Green
-Isaiah Hernandez, Cooper Kennedy
-Bryan Kolc, Emmanuel Ogunnaike
-Ryan Goff, Alexander Moran, Jayden Nunes
+Tee Kaw, Nolan Pitcher
+Alex Werner, Levi Luenenborg
+Bryan Kolc, Matthew Green
+Jon Wollam, Anton Cook
+Bradley Chebefuh, Alexander Moran
+Ethan Stenger, Alijah Alfieri
+Isaiah Hernandez, Brianna Jurado Torres
+Grant Rohrbaugh, Isaac Mastel
+Kojo Tenkorang, Jayden Nunes
+Xavier Bottorff, Sean McNear
+Emmanuel Ogunnaike, Cooper Kennedy
+Bennett Lebruska, Ryan Goff
+Tristan Kingery, Connor Fausett
+Anna LaFrance, Shale Harrison
+Johnathan Franklin, Cameron Koch, Narayana Pujara
