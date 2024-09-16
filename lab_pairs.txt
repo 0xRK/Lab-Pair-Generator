@@ -1,34 +1,34 @@
 Morning Lab
-Brandon Muff, Evan Sipple
-Treggie Sebek, Kane Maly
-Cameron Scheet, Tyler Callan
-Nolan Hill, Brain Walvoord
-Joseph Mueller, Leo Linquet
-Luke Doughty, Parker Peterson
-Brian Abure, Braiden Larson, Emily Smith
+Nolan Hill, Cameron Scheet
+Treggie Sebek, Parker Peterson
+Brain Walvoord, Luke Doughty
+Kane Maly, Joseph Mueller
+Brian Abure, Braiden Larson
+Evan Sipple, Leo Linquet
+Tyler Callan, Brandon Muff, Emily Smith
 
 Afternoon Lab
-Cole Wiebke, Grant Henderson
-Tiffany Burson, Ryan Christian
-Timi Ogunleye, Isaak Hopp
-Drew Bonnie, Jonatan Guzman
-Soroosh Farahmand, Avery Nguyen
-Nathaniel McVay, Jon Stafford
-Samantha Hintz, Bo Kepler
-Ruthie Teeters, Noah Beardon
-Braelyn Riley, Peyton Nelson
-Ethan Friedman, Rachel Solberg
-Riley Heimes, Grant Seagren
-Drew DeBauche, Bodhi Mois
-Andy Truong, Daniel Crow
-Brett Johnson, Levi Loseke
-Owen Addison, Kieran Harrell
-Tyler Roelfs, Caden Mullins
-Krishnaraj Ganesan, Thomas Nguyen
-Anh Nguyen, Owen Kreikemeier
-Ethan Yeh, Shawn Ludena-Llanos 
-James Benton, Cameron Wood 
-Sakshi Pande, Kurt Kuhlman
-Ryan Bussom, Trang Tran
-AJ Masek, Shahd Khourshed
-Travis Nguyen, Zoe Kerchal
+Trang Tran, Soroosh Farahmand
+James Benton, Peyton Nelson
+Ethan Friedman, Kieran Harrell
+Tyler Roelfs, Zoe Kerchal
+Brett Johnson, Anh Nguyen
+Shawn Ludena-Llanos , Krishnaraj Ganesan
+Kurt Kuhlman, Avery Nguyen
+Nathaniel McVay, Ethan Yeh
+Bodhi Mois, Riley Heimes
+AJ Masek, Andy Truong
+Rachel Solberg, Caden Mullins
+Drew DeBauche, Grant Henderson
+Travis Nguyen, Noah Beardon
+Cameron Wood , Tiffany Burson
+Owen Kreikemeier, Jon Stafford
+Cole Wiebke, Thomas Nguyen
+Timi Ogunleye, Grant Seagren
+Drew Bonnie, Ruthie Teeters
+Ryan Christian, Bo Kepler
+Braelyn Riley, Levi Loseke
+Sakshi Pande, Shahd Khourshed
+Daniel Crow, Isaak Hopp
+Ryan Bussom, Jonatan Guzman
+Owen Addison, Samantha Hintz
