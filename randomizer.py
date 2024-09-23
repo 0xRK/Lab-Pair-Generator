@@ -94,7 +94,7 @@ def main():
     read_file.close()
 
     write_file = open("lab_pairs.txt", "w")
-    write_file.write("Morning Lab\n")
+    write_file.write("First Lab (11:30)\n")
     if len(morning_students) % 2 == 0:
         while len(morning_students) > 0:
             write_file.write(select_pair(morning_students, 0))
@@ -104,7 +104,7 @@ def main():
         write_file.write(
             morning_students[0] + ", " + morning_students[1] + ", " + morning_students[2] + "\n")
 
-    write_file.write("\nAfternoon Lab\n")
+    write_file.write("\nSecond Lab (1:30)\n")
     if len(afternoon_students) % 2 == 0:
         while len(afternoon_students) > 0:
             write_file.write(select_pair(afternoon_students, 0))
@@ -113,7 +113,7 @@ def main():
             write_file.write(select_pair(afternoon_students, 0))
         write_file.write(
             afternoon_students[0] + ", " + afternoon_students[1] + ", " + afternoon_students[2] + "\n")
-    write_file.write("\nEvening Lab\n")
+    write_file.write("\nThird Lab (3:30)\n")
     if len(evening_students) % 2 == 0:
         while len(evening_students) > 0:
             write_file.write(select_pair(evening_students, 0))
