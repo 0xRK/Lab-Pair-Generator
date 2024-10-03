@@ -1,44 +1,44 @@
 First Lab (11:30)
-Zen Mang, Manuel Lima
-Antonio Garces, Bryce Closman
-Chloe Fisicaro, Ben Grelk
-Aja Smith, Clayton Howe
-Thrisha Bhupathiraju, Luke Dickerson
-Abby Wever, Josiah Welch
-Kyson Ruskamp, Noah Croghan
+Cutter Beaver, Minh Pham
+Chloe Fisicaro, Sofia Sharif
+Noah Croghan, Abby Wever
+Thrisha Bhupathiraju, Bryce Closman
+Antonio Garces, Graham Heiser
+Luke Dickerson, Manuel Lima
+Ben Grelk, Henry Sweley
+Josiah Welch, Brent Vasa
+Zen Mang, Trai Hoff
+McCoy Haussler, Aja Smith
+Kenneth Kouete, Kyson Ruskamp
+Brett Williams, Tyler Thiede
+Clayton Howe, Joe Nguyen
 Boston Bailey, Trung Huynh
-Joe Nguyen, McCoy Haussler
-Graham Heiser, Brent Vasa
-Minh Pham, Sofia Sharif
-Kenneth Kouete, Henry Sweley
-Brett Williams, Cutter Beaver
-Trai Hoff, Tyler Thiede
 
 Second Lab (1:30)
-Jake Sanford, Isaac Salazar
-Paden Outz, Aidan Dunlap
-Austin James, Dan Vo
-Nhi Luu, Andrew Kula
-Xander Drueppel, Dylan Gage
-Duncan Holmes, Hoai Nguyen
-Carsen Grigaitis, Quentin Rockefeller
-Luke Pickert, Sean Stara
-Ali Mahdi, Kaden Ho
-Ammar Alqaayim, Allen Delgadillo-Orozco
+Xander Drueppel, Dan Vo
+Ammar Alqaayim, Andrew Kula
+Hoai Nguyen, Aidan Dunlap
+Isaac Salazar, Ali Mahdi
+Duncan Holmes, Austin James
+Kaden Ho, Dylan Gage
+Paden Outz, Nhi Luu
+Sean Stara, Quentin Rockefeller
+Allen Delgadillo-Orozco, Luke Pickert
+Jake Sanford, Carsen Grigaitis
 
 Third Lab (3:30)
-Alex Werner, Bennett Lebruska
-Ryan Goff, Isaac Mastel
-Cooper Kennedy, Alijah Alfieri
-Johnathan Franklin, Tee Kaw
-Grant Rohrbaugh, Anton Cook
-Emmanuel Ogunnaike, Brianna Jurado Torres
-Jon Wollam, Tristan Kingery
-Isaiah Hernandez, Bradley Chebefuh
-Anna LaFrance, Cameron Koch
-Connor Fausett, Nolan Pitcher
-Shale Harrison, Bryce Kolc
-Jayden Nunes, Sean McNear
-Narayana Pujara, Levi Luenenborg
-Kojo Tenkorang, Ethan Stenger
-Xavier Bottorff, Matthew Green, Alexander Moran
+Emmanuel Ogunnaike, Narayana Pujara
+Sean McNear, Levi Luenenborg
+Kojo Tenkorang, Anton Cook
+Jon Wollam, Shale Harrison
+Alex Werner, Grant Rohrbaugh
+Connor Fausett, Brianna Jurado Torres
+Isaiah Hernandez, Ryan Goff
+Xavier Bottorff, Ethan Stenger
+Alijah Alfieri, Isaac Mastel
+Anna LaFrance, Alexander Moran
+Tristan Kingery, Johnathan Franklin
+Tee Kaw, Matthew Green
+Bryce Kolc, Bennett Lebruska
+Cameron Koch, Bradley Chebefuh
+Cooper Kennedy, Jayden Nunes, Nolan Pitcher
