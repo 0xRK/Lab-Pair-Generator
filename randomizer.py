@@ -2,16 +2,16 @@ import random
 
 morning_students = []
 afternoon_students = []
-previous_pairs = set()
-current_pairs = []
+previous_groups = set()
+current_groups = []
 
 
-def parse_previous_pairs():
-    read_file = open("previous_pairs.txt", "r")
+def parse_previous_groups():
+    read_file = open("previous_groups.txt", "r")
     for line in read_file:
         line = line[:-1]
         split_line = frozenset(line.split(", "))
-        previous_pairs.add(split_line)
+        previous_groups.add(split_line)
 
 
 def populate_lists(file):
@@ -29,80 +29,92 @@ def populate_lists(file):
                 afternoon_students.append(line)
 
 
-def set_to_string(pair):
-    str_pair = ""
-    for name in pair:
-        str_pair += name + ", "
-    return str_pair[:-2] + "\n"
+def set_to_string(group):
+    str_group = ""
+    for name in group:
+        str_group += name + ", "
+    return str_group[:-2] + "\n"
 
 
 def select_random(lst):
     index0 = random.randrange(0, len(lst))
     index1 = random.randrange(0, len(lst))
+    index2 = random.randrange(0, len(lst))
     while index0 == index1:
         index1 = random.randrange(0, len(lst))
-    return lst[index0], lst[index1]
+    while index0 == index2 or index1 == index2:
+        index2 = random.randrange(0, len(lst))
+    return lst[index0], lst[index1], lst[index2]
 
 
-def select_pair(lst, count):
-    first, second = select_random(lst)
-    pair = frozenset({first, second})
-    if pair in previous_pairs:
+def select_group(lst, count):
+    first, second, third = select_random(lst)
+    group = frozenset({first, second, third})
+    if group in previous_groups:
         if count < 20:
-            return select_pair(lst, count+1)
+            return select_group(lst, count+1)
     lst.remove(first)
     lst.remove(second)
-    return set_to_string(pair)
+    lst.remove(third)
+    return set_to_string(group)
 
 
-def read_current_pairs(file):
+def read_current_groups(file):
     for line in file:
         if line == "Morning Lab\n" or line == "Afternoon Lab\n" or line == "\n":
             continue
         else:
-            current_pairs.append(line)
+            current_groups.append(line)
 
 
-def update_previous_pairs():
-    read_file = open("lab_pairs.txt", "r")
-    read_current_pairs(read_file)
+def update_previous_groups():
+    read_file = open("lab_groups.txt", "r")
+    read_current_groups(read_file)
     read_file.close()
 
-    write_file = open("previous_pairs.txt", "a")
-    for pair in current_pairs:
-        write_file.write(pair)
+    write_file = open("previous_groups.txt", "a")
+    for group in current_groups:
+        write_file.write(group)
     write_file.close()
 
 
+
 def main():
-    parse_previous_pairs()
+    parse_previous_groups()
     read_file = open("student_list.txt", "r")
     populate_lists(read_file)
     read_file.close()
 
-    write_file = open("lab_pairs.txt", "w")
+    write_file = open("lab_groups.txt", "w")
     write_file.write("Morning Lab\n")
-    if len(morning_students) % 2 == 0:
+    if len(morning_students) % 3 == 0:
         while len(morning_students) > 0:
-            write_file.write(select_pair(morning_students, 0))
-    else:
-        while len(morning_students) > 3:
-            write_file.write(select_pair(morning_students, 0))
-        write_file.write(
-            morning_students[0] + ", " + morning_students[1] + ", " + morning_students[2] + "\n")
+            write_file.write(select_group(morning_students, 0))
+    elif len(morning_students) % 3 == 1:
+        while len(morning_students) > 4:
+            write_file.write(select_group(morning_students, 0))
+        write_file.write(morning_students[0] + ", " + morning_students[1] + "\n")
+        write_file.write(morning_students[2] + ", " + morning_students[3] + "\n")
+    elif len(morning_students) % 3 == 2:
+        while len(morning_students) > 2:
+            write_file.write(select_group(morning_students, 0))
+        write_file.write(morning_students[0] + ", " + morning_students[1] + "\n")
 
     write_file.write("\nAfternoon Lab\n")
-    if len(afternoon_students) % 2 == 0:
+    if len(afternoon_students) % 3 == 0:
         while len(afternoon_students) > 0:
-            write_file.write(select_pair(afternoon_students, 0))
-    else:
-        while len(afternoon_students) > 3:
-            write_file.write(select_pair(afternoon_students, 0))
-        write_file.write(
-            afternoon_students[0] + ", " + afternoon_students[1] + ", " + afternoon_students[2] + "\n")
-
+            write_file.write(select_group(afternoon_students, 0))
+    elif len(afternoon_students) % 3 == 1:
+        while len(afternoon_students) > 4:
+            write_file.write(select_group(afternoon_students, 0))
+        write_file.write(afternoon_students[0] + ", " + afternoon_students[1] + "\n")
+        write_file.write(afternoon_students[2] + ", " + afternoon_students[3] + "\n")
+    elif len(afternoon_students) % 3 == 2:
+        while len(afternoon_students) > 2:
+            write_file.write(select_group(afternoon_students, 0))
+        write_file.write(afternoon_students[0] + ", " + afternoon_students[1] + "\n")
     write_file.close()
-    update_previous_pairs()
+    update_previous_groups()
 
 if __name__ == "__main__":
     main()
