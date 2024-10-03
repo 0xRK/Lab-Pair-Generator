@@ -1,34 +1,34 @@
 Morning Lab
-Treggie Sebek, Braiden Larson
-Parker Peterson, Kane Maly
-Brian Abure, Evan Sipple
-Nolan Hill, Brandon Muff
-Joseph Mueller, Tyler Callan
-Cameron Scheet, Leo Linquet
-Luke Doughty, Emily Smith, Brian Walvoord
+Emily Smith, Treggie Sebek
+Parker Peterson, Tyler Callan
+Braiden Larson, Brandon Muff
+Evan Sipple, Cameron Scheet
+Nolan Hill, Kane Maly
+Brian Walvoord, Brian Abure
+Luke Doughty, Leo Linquet, Joseph Mueller
 
 Afternoon Lab
-Jon Stafford, Peyton Nelson
-Daniel Crow, Samantha Hintz
-Owen Addison, Anh Nguyen
-Grant Seagren, Bo Kepler
-Ryan Christian, Cameron Wood 
-Riley Heimes, Cole Wiebke
-Drew Bonnie, Shawn Ludena-Llanos 
-Drew DeBauche, Ethan Friedman
-Ruthie Teeters, Rachel Solberg
-Brett Johnson, Noah Beardon
-Thomas Nguyen, Trang Tran
-Sakshi Pande, Caden Mullins
-Braelyn Riley, Timi Ogunleye
-AJ Masek, Avery Nguyen
-Kieran Harrell, Andy Truong
-Grant Henderson, Ryan Bussom
-Tyler Roelfs, Jonatan Guzman
-Tiffany Burson, Nathaniel McVay
-James Benton, Ethan Yeh
-Krishnaraj Ganesan, Kurt Kuhlman
-Zoe Kerchal, Bodhi Mois
-Travis Nguyen, Isaak Hopp
-Levi Loseke, Shahd Khourshed
-Owen Kreikemeier, Soroosh Farahmand
+Timi Ogunleye, Brett Johnson
+Thomas Nguyen, Jon Stafford
+Ethan Friedman, Owen Kreikemeier
+Rachel Solberg, Ryan Christian
+Levi Loseke, Ethan Yeh
+AJ Masek, Drew DeBauche
+Shawn Ludena-Llanos , Bodhi Mois
+Peyton Nelson, Caden Mullins
+Drew Bonnie, Zoe Kerchal
+Grant Seagren, Tiffany Burson
+Shahd Khourshed, Ruthie Teeters
+Travis Nguyen, Cole Wiebke
+Ryan Bussom, Anh Nguyen
+Grant Henderson, Andy Truong
+Jonatan Guzman, Braelyn Riley
+Isaak Hopp, Kieran Harrell
+Bo Kepler, Soroosh Farahmand
+Kurt Kuhlman, Nathaniel McVay
+Krishnaraj Ganesan, Trang Tran
+Riley Heimes, Avery Nguyen
+Owen Addison, Noah Beardon
+Tyler Roelfs, Cameron Wood 
+Daniel Crow, James Benton
+Samantha Hintz, Sakshi Pande
